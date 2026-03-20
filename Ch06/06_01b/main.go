@@ -9,6 +9,7 @@ import (
 func main() {
 	fileName := "./fromString.txt"
 	file, err := os.Create(fileName)
+	checkError(err)
 	//defer: wait until everything else in this function has executed
 	//then execute this command
 	defer file.Close()
