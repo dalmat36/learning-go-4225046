@@ -2,17 +2,20 @@ package main
 
 import "fmt"
 
+
 func main() {
 
-	// colors := []string{"Red", "Green", "Blue"}
-	// for i := 0; i < len(colors); i++ {
-	// 	println(colors[i])
-	// }
+	//colors := []string{"Red", "Green", "Blue"}
+	//  for i := 0; i < len(colors); i++ {
+	//  	println(colors[i])
+	//  }
 
+	//get color by index
 	// for i := range colors {
 	// 	println(colors[i])
 	// }
 
+	//get color by value
 	// for _, color := range colors {
 	// 	println(color)
 	// }
@@ -25,14 +28,14 @@ func main() {
 	// 	println(states[state])
 	// }
 
-	value := 0
+	//value := 0
 	sum := 0
-	for value < 5 {
-		sum += value
-		fmt.Printf("Value: %v\n", value)
-		fmt.Printf("Sum: %v\n", sum)
-		value++
-	}
+	//  for value < 5 {
+	//  	sum += value
+	//  	fmt.Printf("Value: %v\n", value)
+	//  	fmt.Printf("Sum: %v\n", sum)
+	//  	value++
+	//  }
 
 	sum = 1
 	for sum < 1000 {
